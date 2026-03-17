@@ -7,10 +7,9 @@ public class Main {
         Item item2 = new Item("Sword" , 2);
 
         Head_Gear headGear = new Head_Gear("Helmet" , 1, 10, 0, 5, 2);
-        Chest_Plate chestplate = new Chest_Plate("Iron plate" , 2 , 30 , 0, 3, 100);
-        Leggins leggins = new Leggins("Iron Leggings" , 1 , 20 , 0 , 5 , 10);
-
-
+        Chest_Plate chestplate = new Chest_Plate("Iron plate" , 2 , 30 , 0, 3, 100, 1 , 2 , "Fire Resistance");
+        Leggins leggins = new Leggins("Iron Leggings" , 1 , 20 , 0 , 5 , 10 , 5 , 2);
+        Boots boots = new Boots("Leather Boots" , 1 , 5 , 0 , 2 , 1 , true , 1);
 
 
         inventory.addItem(item1);
@@ -18,6 +17,7 @@ public class Main {
         inventory.addItem(headGear);
         inventory.addItem(chestplate);
         inventory.addItem(leggins);
+        inventory.addItem(boots);
 
         inventory.displayInventory();
 
