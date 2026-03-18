@@ -1,3 +1,5 @@
+package inventory;
+
 public abstract class Armor extends Item{
 
     private int Damage;

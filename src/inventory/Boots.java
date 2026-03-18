@@ -1,3 +1,5 @@
+package inventory;
+
 public class Boots extends Armor{
     private int movementSpeed;
     private boolean ignoresTerrainPenalty;

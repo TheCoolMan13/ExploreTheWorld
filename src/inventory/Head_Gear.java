@@ -1,3 +1,5 @@
+package inventory;
+
 public class Head_Gear extends  Armor{
 
     private int visionRadius;

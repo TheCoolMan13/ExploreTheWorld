@@ -1,3 +1,5 @@
+package inventory;
+
 public class Leggins extends Armor{
     private int MagicReduction;
     private double dodgeChance;

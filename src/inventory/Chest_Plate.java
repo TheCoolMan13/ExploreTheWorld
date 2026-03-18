@@ -1,3 +1,5 @@
+package inventory;
+
 public class Chest_Plate extends Armor{
     private int thoughness;
     private int thornsDamage;
@@ -16,6 +18,6 @@ public class Chest_Plate extends Armor{
     @Override
     public  String toString()
     {
-        return "Chest Plate: " + getName() + ", Quantity: " + getQuantity() + ", Damage: " + getDamage() + ", Defence: " + getDefense() + ", Damage Reduction: " + getDamageReduction() + ", Thoughness" + thoughness + ", Thorns Damage: " + thornsDamage + ", Extra Inventory Slots: " + extraInventorySlots + ", Elemental Resistance: " + elementalResistance;
+        return "Chest Plate: " + getName() + ", Quantity: " + getQuantity() + ", Damage: " + getDamage() + ", Defence: " + getDefense() + ", Damage Reduction: " + getDamageReduction() + ", Thoughness" + thoughness + ", Thorns Damage: " + thornsDamage + ", Extra inventory.Inventory Slots: " + extraInventorySlots + ", Elemental Resistance: " + elementalResistance;
     }
 }
