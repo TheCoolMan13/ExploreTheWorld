@@ -1,4 +1,5 @@
 import inventory.*;
+import window.LaunchPage;
 
 public class Main {
     public static void main(String[] args)
@@ -24,6 +25,7 @@ public class Main {
 
         inventory.displayInventory();
 
+        LaunchPage launchPage = new LaunchPage(inventory);
 
     }
 }
