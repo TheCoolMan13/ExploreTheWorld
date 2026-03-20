@@ -42,7 +42,7 @@ public class LaunchPage implements ActionListener {
 
         getName.setBounds(100, 70 , 100 , 40);
         getName.setFocusable(true);
-        
+
 
         // --- TEXT AREA & SCROLL PANE SETUP ---
         displayArea.setEditable(false);
