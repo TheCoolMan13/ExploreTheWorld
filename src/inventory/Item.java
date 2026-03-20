@@ -14,7 +14,6 @@ public class Item {
     {
         return name;
     }
-
     public int getQuantity ()
     {
         return quantity;
