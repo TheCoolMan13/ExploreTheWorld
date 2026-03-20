@@ -21,7 +21,7 @@ public class LaunchPage implements ActionListener {
 
         // --- FRAME SETUP ---
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 400);
+        frame.setSize(600, 600);
         frame.setLayout(null);
 
         // --- BUTTON SETUP ---
@@ -37,7 +37,7 @@ public class LaunchPage implements ActionListener {
         scrollPane = new JScrollPane(displayArea);
 
         // Give the size and position to the SCROLL PANE instead
-        scrollPane.setBounds(50, 80, 300, 250);
+        scrollPane.setBounds(50, 80, 500, 400);
 
         // Optional: Force the vertical scrollbar to always show
         scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
