@@ -13,8 +13,11 @@ public class LaunchPage implements ActionListener {
     JButton myButton = new JButton("Show Inventory");
     JButton addItem = new JButton("Add a new item");
     JTextArea displayArea = new JTextArea();
-
     // 1. Declare the JScrollPane
+
+    JTextArea getName = new JTextArea("Enter item name");
+    JTextArea getQuantity = new JTextArea("Enter item quantity");
+
     JScrollPane scrollPane;
     Inventory inventory;
 
@@ -35,6 +38,11 @@ public class LaunchPage implements ActionListener {
         addItem.setBounds(220, 20 , 100 , 40);
         addItem.setFocusable(false);
         addItem.addActionListener(this);
+
+
+        getName.setBounds(100, 70 , 100 , 40);
+        getName.setFocusable(true);
+        
 
         // --- TEXT AREA & SCROLL PANE SETUP ---
         displayArea.setEditable(false);
